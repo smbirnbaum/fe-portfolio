@@ -123,3 +123,36 @@ main {
     height: 200px;
   }
 }
+
+.project-image {
+  cursor: pointer;
+}
+
+.image-modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  z-index: 1000;
+}
+
+.modal-image {
+  max-width: 95%;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.close-button {
+  position: fixed;
+  top: 24px;
+  right: 32px;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 48px;
+  cursor: pointer;
+}
