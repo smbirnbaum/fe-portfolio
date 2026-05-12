@@ -222,3 +222,86 @@ main {
     text-align: center;
   }
 }
+
+.project-card {
+  cursor: pointer;
+}
+
+.details-button {
+  margin-top: 16px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 999px;
+  background-color: #7a3e2d;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.details-button:hover {
+  background-color: #26211f;
+}
+
+.popup-background {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  z-index: 1000;
+}
+
+.popup-box {
+  position: relative;
+  width: min(900px, 95%);
+  max-height: 90vh;
+  overflow-y: auto;
+  background-color: white;
+  color: #26211f;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+.popup-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 12px;
+  background-color: #f4efe8;
+}
+
+.popup-close {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  border: none;
+  background: none;
+  color: #26211f;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.popup-box h2 {
+  margin-top: 24px;
+  font-size: 32px;
+}
+
+.popup-box p {
+  line-height: 1.6;
+}
+
+.popup-box a {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 12px 18px;
+  background-color: #26211f;
+  color: white;
+  text-decoration: none;
+  border-radius: 999px;
+}
+
+.popup-box a:hover {
+  background-color: #7a3e2d;
+}
