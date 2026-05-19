@@ -343,3 +343,83 @@ main {
   color: #7a3e2d;
   padding-bottom: 48px;
 }
+
+.joke-game {
+  width: min(800px, 90%);
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.joke-game h1 {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.score {
+  font-weight: 700;
+  color: #7a3e2d;
+}
+
+.joke-card {
+  margin-top: 32px;
+  padding: 32px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.joke-card h2 {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.joke-card label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.joke-card input {
+  width: 100%;
+  padding: 14px 18px;
+  border: 2px solid #d7c9bc;
+  border-radius: 999px;
+  font-size: 16px;
+}
+
+.joke-card input:focus {
+  outline: none;
+  border-color: #7a3e2d;
+  box-shadow: 0 0 0 4px rgba(122, 62, 45, 0.15);
+}
+
+.joke-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.joke-buttons button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 999px;
+  background-color: #26211f;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.joke-buttons button:hover {
+  background-color: #7a3e2d;
+}
+
+.punchline-box {
+  margin-top: 24px;
+  padding: 20px;
+  background-color: #f4efe8;
+  border-radius: 16px;
+  text-align: left;
+}
